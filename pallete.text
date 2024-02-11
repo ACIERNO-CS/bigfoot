@@ -1,0 +1,8 @@
+Dark Blue = (10, 24, 36) water
+Blue = (15, 42, 56) road
+Light Blue = (29, 60, 67) road labels
+Dark Green = (9, 36, 9) land cover
+Green = (19, 47, 19) terrain
+Light Green = (42, 73, 48) text
+Brown = (76, 43, 14) sightings
+Light Brown = (187, 157, 129) text

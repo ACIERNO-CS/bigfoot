@@ -1,0 +1,17 @@
+docker build -t client:0.0.1 ./client
+docker build -t event-bus:0.0.1 ./event-bus
+docker build -t latest:0.0.1 ./latest
+docker build -t map:0.0.1 ./map
+docker build -t moderator:0.0.1 ./moderator
+docker build -t notify:0.0.1 ./notify
+docker build -t sightings:0.0.1 ./sightings
+
+
+
+docker run -d --net=sbnet --name client client:0.0.1
+docker run -d --net=sbnet --name event-bus event-bus:0.0.1
+docker run -d --net=sbnet --name latest latest:0.0.1
+docker run -d --net=sbnet --name map map:0.0.1
+docker run -d --net=sbnet --name moderator moderator:0.0.1
+docker run -d --net=sbnet --name notify notify:0.0.1
+docker run -d --net=sbnet --name sightings sightings:0.0.1

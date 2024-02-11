@@ -1,0 +1,6 @@
+{port: 4000, name: "map"}, 
+{port: 4001, name: "sightings"}, 
+{port: 4002, name: "latest"}, 
+{port: 4003, name: "moderator"}, 
+{port: 4004, name: "notify"}, 
+{port: 4005, name: "event-bus"}
